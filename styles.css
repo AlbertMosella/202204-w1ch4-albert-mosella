@@ -3,14 +3,21 @@
   box-sizing: border-box;
 }
 
-body {
+html {
   height: 100%;
+}
+
+body {
   margin: 0 auto;
+}
+
+.container {
+  height: 100%;
 }
 
 header {
   display: flex;
-  background-color: rgb(110, 110, 170);
+  background-color: #5e81d1;
   padding: 15px 0px;
 }
 
@@ -24,6 +31,10 @@ h1 {
   flex: 1;
   padding-left: 15px;
   justify-content: center;
+}
+
+h2 {
+  background-color: #f87500;
 }
 
 nav {
@@ -57,5 +68,40 @@ a:visited {
   padding: 12px;
   display: flex;
   justify-content: space-between;
-  background-color: #ff6600;
+  background-color: #f87500;
+}
+
+.checkbox-list {
+  display: flex;
+  background-color: #ff8d27;
+}
+
+.checkbox-list-food {
+  flex: 8;
+}
+
+.checkbox-list-food section {
+  padding: 5px;
+}
+
+.checkbox-list-price {
+  flex: 2;
+  flex-direction: column;
+}
+
+.total-price {
+  text-align: right;
+  text-align: top;
+  padding: 5px;
+  border-top: white;
+  background-color: #ff8d27;
+  height: 100%;
+}
+
+.modificar-button {
+  background-color: #5e81d1;
+}
+
+.form-container {
+  background-color: #ff8d27;
 }
