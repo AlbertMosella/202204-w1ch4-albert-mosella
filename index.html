@@ -6,14 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="/imagenes/icons8-hamburguesa-48.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;800&display=swap"
+      rel="stylesheet"
+    />
     <title>Lista de la compra</title>
   </head>
   <body>
-    <div>
+    <div class="container">
       <header>
         <h1>Lista de la compra</h1>
         <nav>
-          <ul>
+          <ul class="container-navigation">
             <li>
               <a href="index.html">Principal</a>
             </li>
@@ -25,16 +31,25 @@
         </nav>
       </header>
       <main>
-        <section>
+        <section class="container-secondary-menu">
           <img src="/imagenes/icons8-plus-64.png" alt="simbolo-sumar" />
           <span>2/3 Comprados</span>
         </section>
         <section>
           <section>
             <ul>
-              <li>Pan</li>
-              <li>Azucar</li>
-              <li>Leche</li>
+              <li>
+                <input type="checkbox" id="pan" />
+                <label for="pan">Pan</label>
+              </li>
+              <li>
+                <input type="checkbox" id="pan" />
+                <label for="pan">Azucar</label>
+              </li>
+              <li>
+                <input type="checkbox" id="pan" />
+                <label for="pan">Leche</label>
+              </li>
             </ul>
           </section>
           <div>
