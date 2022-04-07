@@ -11,6 +11,10 @@ body {
   margin: 0 auto;
 }
 
+main {
+  height: 100vh;
+}
+
 .container {
   height: 100%;
 }
@@ -91,9 +95,8 @@ a:visited {
 
 .total-price {
   text-align: right;
-  text-align: top;
   padding: 5px;
-  border-top: white;
+  border-top: solid 1px white;
   background-color: #ff8d27;
   height: 100%;
 }
@@ -104,4 +107,9 @@ a:visited {
 
 .form-container {
   background-color: #ff8d27;
+  height: 100vh;
+}
+
+input[type="checkbox"]:checked + label.strikethrough {
+  text-decoration: line-through;
 }
